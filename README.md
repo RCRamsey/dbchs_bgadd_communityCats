@@ -29,23 +29,32 @@ It was my hope that the maps created would help stimulate local enthusiasm for t
 
 ## Part II: Data Sources
 ### Basemap Data
-[OpenStreetMap Contributors](https://www.openstreetmap.org/about/): I used QGIS OSM plugin [QuickOSM](https://plugins.qgis.org/plugins/QuickOSM/) to pull roads, buildings, rivers, streams, lakes and green spaces. This data was used to create the basemap for the project.
+OpenStreetMap: I used QGIS OSM plugin [QuickOSM](https://plugins.qgis.org/plugins/QuickOSM/) to pull roads, buildings, rivers, streams, lakes and green spaces ([OpenStreetMap Contributors](https://www.openstreetmap.org/about/)). This data was used to create the basemap for the project.
 
 ### Humane Society Data
 Data Provided in a CSV format from DBCHS. Data included: state, zip code, city, gps coordinates/nearest physical address, number of community cats collected from the location brought to participate in the program.  
 
-## Part III. Proposed Visuals
+## Part III. Proposed Visual
 Boyle County Kentucky covers approximately 474 sq km and contains 13 different communities. The visual would need to cover both the overall general location of the community cats participating in the program, but also provide basic major road names so community members could orient themselves within the county. 
 
-Visual 1: Map of entire county showing general point location of years the location had a cat participate in the program.
-Visual 2: Map of entire county using a hex-bin grouping aggregating together the number of cats partcipating within a specififed distance (0.5 mile diagonal hexagon)
-Visual 3: Zoomed in portions of communities for local reference of roads/streets.
-
+**Visual 1**: Map of entire county showing general point location of years the location had a cat participate in the program.   
+**Visual 2**: Map of entire county using a hex-bin grouping, aggregating together the number of unique addresses close to location of cat pickup within a specified distance. Option to show zoomed in locations.   
+**Visual 3**: Map of entire county using a hex-bin grouping, aggregating together the number of cats partcipating within a specififed distance. Option to show zoomed in locations.
 
 ## References for readme
-[ASPCA Pet Statistics](https://www.aspca.org/helping-people-pets/shelter-intake-and-surrender/pet-statistics) referencing data from [Shelter Animals Count](https://www.shelteranimalscount.org/) data from 2019 and other known and estimated sources.
+[ASPCA Pet Statistics](https://www.aspca.org/helping-people-pets/shelter-intake-and-surrender/pet-statistics) referencing data from [Shelter Animals Count](https://www.shelteranimalscount.org/) data from 2019 and other known and estimated sources.  
 [DBCHS](https://www.dbchs.org/community-cat)
 [Humane Society Community Cat Program](https://www.humanesociety.org/resources/community-cat-program)
 [Humane Society](https://www.humanesociety.org/resources/community-cat-program)
 [Joanie Bernard Foundation](https://www.thejoaniebernardfoundation.org/about-us)
-## Final Map
+## Final Maps
+
+
+![Heatmap of DBCHS Community Cat Program](images/2020&2021_heatmap_blue.png)
+![Heatmap of DBCHS Community Cat Program](images/2020versus2021_heatmap_fire.png)
+![Heatmap of DBCHS Community Cat Program](images/2020&2021_cnty.png)
+![Heatmap of DBCHS Community Cat Program](images/2020&2021_danville.png)
+![Heatmap of DBCHS Community Cat Program](images/2020&2021_Ndvill.png)
+![Heatmap of DBCHS Community Cat Program](images/2020&2021_jxn.png)
+![Heatmap of DBCHS Community Cat Program](images/2020&2021_perryville.png)
+![Heatmap of DBCHS Community Cat Program](images/2020&2021_swBoyle.png)
