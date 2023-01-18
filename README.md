@@ -6,7 +6,7 @@ A volunteer project focused on helping a community visualize the impact of the l
 - [Part I. Project Summary Proposal](#part-i-project-summary-proposal)  
 - [Part II. Data Sources](#part-ii-data-sources)  
     - [Basemap Data](#basemap-data)
-    - [Human Society Data](#humane-society-data)
+    - [Humane Society Data](#humane-society-data)
 - [Part III. Proposed Visuals](#part-iii-proposed-visuals)
 - [References for readme](#references-for-readme)
 - [Final Map](#Final-Map)
